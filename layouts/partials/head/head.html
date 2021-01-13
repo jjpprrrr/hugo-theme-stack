@@ -13,6 +13,7 @@
 {{- partial "head/script.html" . -}}
 {{- partial "head/opengraph/include.html" . -}}
 
+{{ template "_internal/google_analytics.html" . }}
 {{- range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{- end -}}
