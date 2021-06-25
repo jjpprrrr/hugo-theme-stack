@@ -221,12 +221,6 @@
         padding: 15px calc(var(--card-padding) - var(--blockquote-border-size));
         background-color: var(--blockquote-background-color);
     }
-    
-    ul {
-        @media (max-width: $on-tablet) {
-            padding-inline-start: 20px;
-        }
-    }
 
     hr {
         width: 100px;
