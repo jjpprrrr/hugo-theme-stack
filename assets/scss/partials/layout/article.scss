@@ -367,6 +367,18 @@
         background-color: var(--tr-even-background-color);
     }
 
+    ul {
+        padding-inline-start: 20px;
+
+        @include respond(md) {
+            padding-inline-start: 30px;
+        }
+
+        @include respond(lg) {
+            padding-inline-start: 40px;
+        }
+    }
+
     .twitter-tweet {
         color: var(--card-text-color-main);
     }
